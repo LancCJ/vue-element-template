@@ -1,0 +1,24 @@
+@import './element-ui.css';
+
+body {
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+    padding:0 0;
+    margin:0 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}

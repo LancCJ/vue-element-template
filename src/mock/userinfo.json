@@ -1,0 +1,62 @@
+{
+  "data": {
+    "avatar": "http://work.omwteam.com/static/img/img.2aab7b4.jpg",
+    "nickname": "丘果冻111",
+    "menu": [
+      {
+        "path": "/module1",
+        "componentPath": "common/home",
+        "redirect": "/module1/index",
+        "name": "模块1",
+        "noDropdown": true,
+        "children": [
+          {
+            "path": "index",
+            "componentPath": "test/page1",
+            "name": "页面1",
+            "meta": {
+              "add": true,
+              "delete": true,
+              "edit": true,
+              "select": true
+            }
+          }
+        ]
+      },
+      {
+        "path": "/module2",
+        "componentPath": "common/home",
+        "redirect": "/module2/index",
+        "name": "模块2",
+        "noDropdown": true,
+        "children": [
+          {
+            "path": "index",
+            "componentPath": "test/page2",
+            "name": "页面2"
+          }
+        ]
+      },
+      {
+        "path": "/module3",
+        "componentPath": "common/home",
+        "redirect": "/module3/index",
+        "name": "模块3",
+        "children": [
+          {
+            "path": "index",
+            "componentPath": "test/page3",
+            "name": "页面3"
+          },
+          {
+            "path": "other",
+            "componentPath": "test/page4",
+            "name": "页面4"
+          }
+        ]
+      }
+    ]
+  },
+  "success": true,
+  "message": "获取信息成功"
+}
