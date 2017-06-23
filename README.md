@@ -1,13 +1,16 @@
 # vue-element-template
 vue基于element-ui的脚手架
 
+### 参考
+[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+
 ### 技术结构
-* vue javascript框架
-* vue-router 路由管理
-* vuex 状态管理
-* axios 基于Promise的HTTP请求客户端
+* [vue](https://cn.vuejs.org/v2/guide/index.html) javascript框架
+* [vue-router](https://router.vuejs.org/zh-cn/) 路由管理
+* [vuex](https://vuex.vuejs.org/zh-cn/) 状态管理
+* [axios](https://github.com/mzabriskie/axios) 基于Promise的HTTP请求客户端
 * webpack 打包工具
-* Elememt-UI vue组建库
+* [Elememt-UI](http://element.eleme.io/#/zh-CN/component/installation) vue组建库
 
 ### 后台骨架
 * 整体布局(顶部、侧栏、主体)
